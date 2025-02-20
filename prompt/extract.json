@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Given the first masked words without any analysis. You just need to give a word or phrase."
+    },
+    {
+        "role": "user",
+        "content": "Sentence: Club Nouveau originated from [MASK 1]."
+    },
+    {
+        "role": "assistant",
+        "content": "United States"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: The country where the creator of the Chevrolet Corvette (C4) is located is [MASK ANS]."
+    },
+    {
+        "role": "assistant",
+        "content": "United States"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: The Mona Lisa is located in the [MASK 2] Museum."
+    },
+    {
+        "role": "assistant",
+        "content": "Louvre"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: The first person to walk on the moon was [MASK 3]."
+    },
+    {
+        "role": "assistant",
+        "content": "Neil Armstrong"
+    },
+    {
+        "role": "user",
+        "content": "Sentence: The creator of Python is [MASK 1]."
+    },
+    {
+        "role": "assistant",
+        "content": "Guido van Rossum"
+    }
+]

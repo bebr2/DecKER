@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "You are given an entity along with its supposed types. Your task is to determine whether the entity matches the type it has been assigned. Only output Yes or No. Yes if the entity matches the type, No otherwise."
+    },
+    {
+        "role": "user",
+        "content": "Entity: New York\nAssigned Type: country"
+    },
+    {
+        "role": "assistant",
+        "content": "No"
+    },
+    {
+        "role": "user",
+        "content": "Entity: Apple Inc.\nAssigned Type: company"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes"
+    },
+    {
+        "role": "user",
+        "content": "Entity: Steve Jobs\nAssigned Type: city"
+    },
+    {
+        "role": "assistant",
+        "content": "No"
+    },
+    {
+        "role": "user",
+        "content": "Entity: baseball\nAssigned Type: position"
+    },
+    {
+        "role": "assistant",
+        "content": "No"
+    },
+    {
+        "role": "user",
+        "content": "Entity: USD\nAssigned Type: currency"
+    },
+    {
+        "role": "assistant",
+        "content": "Yes"
+    }
+]

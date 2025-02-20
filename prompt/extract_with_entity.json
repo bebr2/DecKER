@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Given the first masked entity without any analysis. The answer you give must match the given type."
+    },
+    {
+        "role": "user",
+        "content": "Type of the masked entity: country.\nSentence: Club Nouveau originated from [MASK 1]."
+    },
+    {
+        "role": "assistant",
+        "content": "United States"
+    },
+    {
+        "role": "user",
+        "content": "Type of the masked entity: country.\nSentence: The country where the creator of the Chevrolet Corvette (C4) is located is [MASK ANS]."
+    },
+    {
+        "role": "assistant",
+        "content": "United States"
+    },
+    {
+        "role": "user",
+        "content": "Type of the masked entity: place.\nSentence: The Mona Lisa is located in the [MASK 2] Museum."
+    },
+    {
+        "role": "assistant",
+        "content": "Louvre"
+    },
+    {
+        "role": "user",
+        "content": "Type of the masked entity: person.\nSentence: The first person to walk on the moon was [MASK 3]."
+    },
+    {
+        "role": "assistant",
+        "content": "Neil Armstrong"
+    },
+    {
+        "role": "user",
+        "content": "Type of the masked entity: person.\nSentence: The creator of Python is [MASK 1]."
+    },
+    {
+        "role": "assistant",
+        "content": "Guido van Rossum"
+    }
+]

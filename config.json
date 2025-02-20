@@ -1,0 +1,10 @@
+{
+    "cuda_visible_devices": "0",
+    "edit_num": 0,
+    "beta": 0.1,
+    "alpha": 1.5,
+    "nsample": 6,
+    "model_name": "llama3.1-8b",
+    "dataset_name": "MQuAKE-CF-3k-v2",
+    "seed": 100
+}

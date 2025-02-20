@@ -1,0 +1,46 @@
+[
+    {
+        "role": "system",
+        "content": "Determine whether the provided Fact sentence supports filling the MASKed part in the given Sentence. Only output Yes or No."
+    },
+    {
+        "role": "user",
+        "content": "Fact: Club Nouveau is a group.\nSentence: Club Nouveau originated from [MASK 1]."
+    },
+    {
+        "role": "assistant",
+        "content": "No"
+    },
+    {
+        "role": "user",
+        "content": "Fact: Paris is the capital of France.\nSentence: The capital of France is [MASK ANS]."
+    },
+    {
+        "role": "assistant",
+        "content": "Yes"
+    },
+    {
+        "role": "user",
+        "content": "Fact: The Venus de Milo is located in the Louvre Museum.\nSentence: The Mona Lisa is located in the [MASK 2] Museum."
+    },
+    {
+        "role": "assistant",
+        "content": "No"
+    },
+    {
+        "role": "user",
+        "content": "Fact: The first person to get to the South Pole is Roald Amundsen.\nSentence: The first person to walk on the moon was [MASK 3]."
+    },
+    {
+        "role": "assistant",
+        "content": "No"
+    },
+    {
+        "role": "user",
+        "content": "Fact: The Python programming language was created by Guido van Rossum.\nSentence: The creator of Python is [MASK 1]."
+    },
+    {
+        "role": "assistant",
+        "content": "Yes"
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "role": "system",
+        "content": "Generate a detailed chain of thought with each reasoning step labeled as [STEP]. Replace any specific knowledge, entities, dates, or locations that are not in the text of question with [MASK]. Focus only on the logical steps and flow. And then include the category of each [MASK *] in order in the chain of thought as [CATEGORY], to clarify the type of entity that should be filled in."
+    },
+    {
+        "role": "user",
+        "content": "Question: What is the capital of the country where Plainfield Town Hall is located?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Plainfield Town Hall is located in the country of [MASK 1].\n[STEP] The capital of [MASK 1] is [MASK ANS].\n[CATEGORY]\n[MASK 1] [country]\n[MASK ANS] [city]"
+    },
+    {
+        "role": "user",
+        "content": "Question: In which country is the company that created Nissan 200SX located?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] Nissan 200SX was created by [MASK 1].\n[STEP] [MASK 1] is located in the country of [MASK ANS].\n[CATEGORY]\n[MASK 1] [company]\n[MASK ANS] [country]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Which continent is the country where the director of \"My House Husband: Ikaw Na!\" was educated located in?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] The director of \"My House Husband: Ikaw Na!\" is [MASK 1].\n[STEP] [MASK 1] was educated at [MASK 2].\n[STEP] [MASK 2] is located in the country of [MASK 3].\n[STEP] [MASK 3] is located in the continent of [MASK ANS].\n[CATEGORY]\n[MASK 1] [person]\n[MASK 2] [school]\n[MASK 3] [country]\n[MASK ANS] [continent]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Who is the spouse of the US president?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] The US president is [MASK 1].\n[STEP] The spouse of [MASK 1] is [MASK ANS].\n[CATEGORY]\n[MASK 1] [person]\n[MASK ANS] [person]"
+    },
+    {
+        "role": "user",
+        "content": "Question: Who has ownership of the developer of the Chevrolet Corvette (C4)?"
+    },
+    {
+        "role": "assistant",
+        "content": "[STEP] The developer of Chevrolet Corvette (C4) is [MASK 1].\n[STEP] [MASK 1] is owned by [MASK ANS].\n[CATEGORY]\n[MASK 1] [company]\n[MASK ANS] [person]"
+    }
+    
+    
+]
